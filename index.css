@@ -1,0 +1,8 @@
+.nav-link {
+	color: #2E86C1;/*#D68910*/
+	margin-right: auto;
+	margin-left: auto;
+	display: table-header-group;
+	text-decoration: underline;
+	cursor: pointer;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="vendor/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="vendor/angular/angular.min.js"></script>
+	<script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<script type="text/javascript" src="index_module.js"></script>
+	<script type="text/javascript" src="index_config.js"></script>
+
+	<script type="text/javascript" src="www/directive/dir-prod/dir-prod_module.js"></script>
+	<script type="text/javascript" src="www/directive/dir-prod/dir-prod_controller.js"></script>
+	<script type="text/javascript" src="www/directive/dir-prod/dir-prod_directive.js"></script>
+	
+	<title>Web Toolkit</title>
+</head>
+<body ng-app="index-module">
+	
+	<div class="container">
+		<h1>Web Toolkit</h1>
+
+		<div class="container-fluid">
+			<div ui-view></div>
+		</div>
+
+	</div>
+</body>
+</html>
