@@ -1,5 +1,5 @@
 (function() {
 	angular.module('index-module', [
-		'dir-prod-module',
+		'store-module',
 		'ui.router']);
 })();

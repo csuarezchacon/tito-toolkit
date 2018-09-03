@@ -8,9 +8,11 @@
 					url: '/home',
 					templateUrl: 'www/pages/home/home.html'
 				})
-				.state('gallery', {
-					url: '/gallery',
-					templateUrl: 'www/pages/gallery/gallery.html'
+				.state('store', {
+					url: '/store',
+					controller: 'storeController',
+					controllerAs: 'vmStore',
+					templateUrl: 'www/pages/store/store.html'
 				});
 		}]
 	);

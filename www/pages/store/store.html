@@ -1,0 +1,19 @@
+<div>
+	<ul>
+		<li class="nav-link" >
+			<div ui-sref="home">Volver</div>
+		</li>
+	</ul>
+
+	<h5>Página Tienda</h5>
+	<p>Se despliega una grilla con productos, estos son llamados como directiva <b>&lt;prod&gt;&lt;/prod&gt;</b><br>
+	Para usarla es importante agregar al index la sentencia <b>&lt;link rel="stylesheet" type="text/css" href="-...-/dir-prod/dir-prod.css"&gt;</b> y también agregar como modulo <b>prod-module</b></p>
+
+	<div class="row">
+		<div class="col-12">
+			<div ng-repeat="product in vmStore.products.list">
+				<prod product="product"></prod>
+			</div>
+		</div>
+	</div>
+</div>
