@@ -10,10 +10,8 @@
 	Para usarla es importante agregar al index la sentencia <b>&lt;link rel="stylesheet" type="text/css" href="-...-/dir-prod/dir-prod.css"&gt;</b> y también agregar como modulo <b>prod-module</b></p>
 
 	<div class="row">
-		<div class="col-12">
-			<div ng-repeat="product in vmStore.products.list">
-				<prod product="product"></prod>
-			</div>
+		<div class="col-lg-4" ng-repeat="product in vmStore.products.list">
+			<prod product="product"></prod>
 		</div>
 	</div>
 </div>
