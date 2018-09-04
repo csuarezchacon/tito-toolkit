@@ -1,6 +1,25 @@
-.prodImg {
+.item-area {
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.15);
+	margin: 10px auto; /*permite centrar el contenido del div*/
+	padding: 5px;
+	width: 212px;
+}
+
+.item-bottom {
+	margin: 5px 0 0 0;
+	padding: 5px;
+	background-color: lightgrey;
+	height: 80px
+}
+
+.item-image {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	margin: 0 auto; /*permite centrar el contenido del div*/
+	width: 200px;
+}
+
+.item-top {
 }
