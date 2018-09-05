@@ -1,10 +1,12 @@
 .item-area {
 	border-radius: 5px;
 	border: 1px solid rgba(0,0,0,0.15);
+	cursor: pointer;
 	margin: 15px auto; /*permite centrar el contenido del div*/
+	max-width: 240px;
+	min-width: 210px;
 	padding: 4px;
 	width: 240px;
-	cursor: pointer;
 }
 
 .item-bottom {
@@ -19,6 +21,10 @@
 	border-radius: 3px;
 	height: 230px;
 	margin: 0 auto; /*permite centrar el contenido del div*/
+	max-height: 230px;
+	max-width: 230px;
+	min-height: 200px;
+	min-width: 200px;
 	width: 230px;
 }
 

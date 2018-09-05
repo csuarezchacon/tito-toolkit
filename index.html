@@ -14,6 +14,8 @@
 	<link rel="stylesheet" type="text/css" href="www/pages/store/store.css">
 	<link rel="stylesheet" type="text/css" href="www/directive/prod/prod.css">
 
+	<link rel="stylesheet" type="text/css" href="www/directive/prod-deta/prod-deta.css">
+
 	<script type="text/javascript" src="index_module.js"></script>
 	<script type="text/javascript" src="index_config.js"></script>
 
@@ -21,18 +23,24 @@
 	<script type="text/javascript" src="www/directive/prod/prod_controller.js"></script>
 	<script type="text/javascript" src="www/directive/prod/prod_directive.js"></script>
 
+	<script type="text/javascript" src="www/directive/prod-deta/prod-deta_module.js"></script>
+	<script type="text/javascript" src="www/directive/prod-deta/prod-deta_controller.js"></script>
+	<script type="text/javascript" src="www/directive/prod-deta/prod-deta_directive.js"></script>
+
 	<script type="text/javascript" src="www/pages/store/store_module.js"></script>
 	<script type="text/javascript" src="www/pages/store/store_controller.js"></script>
 	
 	<title>Web Toolkit</title>
 </head>
 <body ng-app="index-module">
-	
-	<div class="container-fluid">
-		<h1>Web Toolkit</h1>
-	</div>
-	<div class="container">
-		<div ui-view></div>
+	<prod-deta product="product"></prod-deta>
+	<div id="main">
+		<div class="container-fluid">
+			<h1>Web Toolkit</h1>
+		</div>
+		<div class="container">
+			<div ui-view></div>
+		</div>
 	</div>
 </body>
 </html>

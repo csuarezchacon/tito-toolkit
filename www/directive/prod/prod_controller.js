@@ -3,5 +3,8 @@
 		var vm = this;
 
 		vm.product = $scope.product;
+		vm.openNav = function(product){
+			document.getElementById("mySidenav").style.width = "250px";
+		};
 	}]);
 })();
