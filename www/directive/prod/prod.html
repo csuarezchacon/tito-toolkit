@@ -3,7 +3,7 @@
 		<div class="item-image" ng-style="vmProd.product"></div>
 	</div>
 	<div class="item-bottom">
-		<h6>Nombre producto</h6>
-		<h6 class="text-right">$14.000</h6>
+		<h6>{{vmProd.product.title}}</h6>
+		<h6 class="text-right">{{vmProd.product.price | currency : 'CLP $ ' : 0}}</h6>
 	</div>
 </div>
