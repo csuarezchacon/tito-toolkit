@@ -26,14 +26,6 @@
     border-radius: 5px;
 }
 
-._sidenav ._closebtn {
-    position: absolute;
-    top: 0;
-    right: 0px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
 .prod-deta-image {
     background-repeat: no-repeat;
     background-size: 100% 100%;

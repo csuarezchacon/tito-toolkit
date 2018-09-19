@@ -33,11 +33,11 @@
 	
 	<script type="text/javascript">
 		$(document).keyup(function(e) {
-		     if (e.keyCode == 27) { // Codigo 27 == tecla Esc
-		     	if (document.getElementById("mySidenav").style.width === "400px") {
-		     		document.getElementById("mySidenav").style.width = "0";
-		     	}
-		    }
+			if (e.keyCode == 27) { // Codigo 27 == tecla Esc
+				if (document.getElementById("mySidenav").style.width === "350px") {
+					document.getElementById("mySidenav").style.width = "0";
+				}
+			}
 		});
 	</script>
 
@@ -49,7 +49,7 @@
 		<div class="container-fluid">
 			<h1>Web Toolkit</h1>
 		</div>
-		<div class="container-fluid">
+		<div class="container">
 			<div ui-view></div>
 		</div>
 	</div>
