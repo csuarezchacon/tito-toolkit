@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">
 
 	<script type="text/javascript" src="vendor/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="vendor/angular/angular.min.js"></script>
@@ -30,15 +31,25 @@
 	<script type="text/javascript" src="www/pages/store/store_module.js"></script>
 	<script type="text/javascript" src="www/pages/store/store_controller.js"></script>
 	
+	<script type="text/javascript">
+		$(document).keyup(function(e) {
+		     if (e.keyCode == 27) { // Codigo 27 == tecla Esc
+		     	if (document.getElementById("mySidenav").style.width === "400px") {
+		     		document.getElementById("mySidenav").style.width = "0";
+		     	}
+		    }
+		});
+	</script>
+
 	<title>Web Toolkit</title>
 </head>
 <body ng-app="index-module">
-	<prod-deta product="product"></prod-deta>
+	<prod-deta></prod-deta>
 	<div id="main">
 		<div class="container-fluid">
 			<h1>Web Toolkit</h1>
 		</div>
-		<div class="container">
+		<div class="container-fluid">
 			<div ui-view></div>
 		</div>
 	</div>

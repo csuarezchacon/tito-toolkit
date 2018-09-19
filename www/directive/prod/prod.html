@@ -1,8 +1,8 @@
-<div class="item-area" ng-click="vmProd.openNav(vmProd.product)">
-	<div class="item-top">
-		<div class="item-image" ng-style="vmProd.product"></div>
+<div class="prod-area" ng-click="vmProd.openNav(vmProd.product)">
+	<div class="prod-top">
+		<div class="prod-image" ng-style="vmProd.product.imgStyle"></div>
 	</div>
-	<div class="item-bottom">
+	<div class="prod-bottom">
 		<h6>{{vmProd.product.title}}</h6>
 		<h6 class="text-right">{{vmProd.product.price | currency : 'CLP $ ' : 0}}</h6>
 	</div>

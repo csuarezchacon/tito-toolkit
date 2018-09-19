@@ -12,33 +12,42 @@
     box-shadow: -2px 0px 10px rgba(0,0,0,0.35);
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
+.sidenav i:hover {
     color: #f1f1f1;
 }
 
 .sidenav .closebtn {
+    background-color: grey;
+    margin: 5px;
+    right: 0px;
+    position: absolute;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+._sidenav ._closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 0px;
     font-size: 36px;
     margin-left: 50px;
 }
 
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
+.prod-deta-image {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 0;
+    height: 350px;
+    width: 350px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
+#main {
+    transition: margin-left .5s;
+    padding: 0px;
+}
+
+@media screen{
+  .sidenav {padding-top: 0px;}
   .sidenav a {font-size: 18px;}
 }
