@@ -1,5 +1,6 @@
 (function() {
 	angular.module('store-module',[
-		'prod-module'
+		'prod-module',
+		'product-module'
 	]);
 })();
