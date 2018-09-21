@@ -18,7 +18,7 @@
 				{'img': 'www/img/JIRAFA001/JIRAFA001_1_400X400.JPG', 'imgStyle': {'background-image': 'url(www/img/JIRAFA001/JIRAFA001_1_400X400.JPG)'}, 'title': 'Jirafa Rafa', 'price': 14000},
 				{'img': 'www/img/DINO001/DINO001_1_400X400.JPG', 'imgStyle': {'background-image': 'url(www/img/DINO001/DINO001_1_400X400.JPG)'}, 'title': 'Dino el Dinosaurio', 'price': 14000},
 				{'img': 'www/img/CONEJO001/CONEJO001_1_400X400.JPG', 'imgStyle': {'background-image': 'url(www/img/CONEJO001/CONEJO001_1_400X400.JPG)'}, 'title': 'Conejo Mateo', 'price': 14000},
-				{'img': 'www/img/CONEJA001/CONEJA001_1_400X400.JPG', 'imgStyle': {'background-image': 'url(www/img/CONEJA001/CONEJA001_1_400X400.JPG)'}, 'title': 'Coneja Matilde', 'price': 14000},
+				{'img': 'www/img/CONEJA001/CONEJA001_1_400X400.JPG', 'imgStyle': {'background-image': 'url(www/img/CONEJA001/CONEJA001_1_400X400.JPG)'}, 'title': 'Coneja Matilde', 'price': 14000}
 			]
 		};
 	}]);
