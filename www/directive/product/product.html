@@ -1,22 +1,23 @@
 <div class="card">
 	<img class="card-img-top" src="{{vmProduct.product.img}}">
-	<div class="card-expand">
-		<i class="fa fa-sticky-note-o" aria-hidden="true"></i>
-	</div>
-	<div class="card-desc">
+
+	<!--div class="card-expand"><i class="fa fa-sticky-note-o" aria-hidden="true"></i></div-->
+
+	<div class="card-desc-ttl">
 		<div class="angle-up text-center">
 			<i class="fa fa-angle-up" aria-hidden="true"></i>
 		</div>
 		<h6>{{vmProduct.product.title}}</h6>
+		<div class="card-desc-bdy" id="{{vmProduct.product.id}}">
+			<div>
+				{{vmProduct.product.img}}
+			</div>
+		</div>
+	</div>
+	<div class="card-footer">
+		<div class="btn-group d-flex" role="group">
+			<button type="button" class="btn btn-submit w-100">Agregar</button>
+  			<button type="button" class="btn btn-success w-100">Comprar</button>
+		</div>
 	</div>
 </div>
-
-<!--div class="prod-area" ng-click="vmProd.openNav(vmProd.product)">
-	<div class="prod-top">
-		<div class="prod-image" ng-style="vmProd.product.imgStyle"></div>
-	</div>
-	<div class="prod-bottom">
-		<h6>{{vmProd.product.title}}</h6>
-		<h6 class="text-right">{{vmProd.product.price | currency : 'CLP $ ' : 0}}</h6>
-	</div>
-</div-->

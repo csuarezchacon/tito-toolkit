@@ -1,54 +1,71 @@
 .angle-up {
-	margin: 0px auto;
-	background-color: white;
-	width: 24px;
 	height: 15px;
-	margin-top: -10px;
-	border-radius: 24px 24px 0 0;
+	margin: 0px auto;
+	margin-top: -8px;
+	transition: 0.5s;
+	z-index: 0;
 }
 
 .card {
-	padding-bottom: 30px;
+	max-height: 420px;
+	max-width: 350px;
+	margin: 0 auto;
 	margin-bottom: 25px;
 	transition: 0.2s;
 }
-
 .card:hover {
 	box-shadow: 0px 0px 8px #888888;
 }
 
 .card-expand {
-	cursor: pointer;
-	color: white;
-	top: 8px;
-	right: 12px;
-	position: absolute;
-	width: 20px;
-	height: 21px;
-	border: 1px solid white;
 	border-radius: 4px;
-	padding: 0px 2px 0px 2px;
+	border: 1px solid white;
+	cursor: pointer;
+	height: 25px;
+	position: absolute;
+	right: 12px;
+	top: 8px;
 	transition: 0.2s;
+	width: 25px;
+}
+.card-expand>.fa-sticky-note-o {
+	color: 	white;
+	margin: .27rem .27rem;
+	position: absolute;
 }
 
 .card-expand:hover {
-	background-color: lightgrey;
+	background-color: rgba(168, 112, 203, 0.5);
 	box-shadow: 0px 0px 8px #888888;
 }
 
-.card-desc {
-	padding: 0px 20px 0px 20px;
+.card-desc-ttl {
+	font-size: 1rem;
+	bottom: 35px;
 	cursor: pointer;
 	height: 30px;
-	transition: 0.3s;
-	bottom: 0px;
+	padding: 0px 20px 0px 20px;
 	position: absolute;
+	transition: 0.3s;
 	width: 100%;
-    border-bottom-left-radius: calc(.25rem - 1px);
-    border-bottom-right-radius: calc(.25rem - 1px);
     background-color: white;
+    overflow:hidden;
 }
 
-.card:hover >.card-desc {
-	height: 85%;
+.card:hover>.card-desc-ttl {
+	height: 80%;
+}
+
+.card-footer {
+	margin-top: 30px;
+	padding: 0;
+}
+
+.card-footer>.btn-group>.btn {
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.btn-success:active {
+	border: 0 !important;
 }

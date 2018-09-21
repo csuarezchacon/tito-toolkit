@@ -3,5 +3,6 @@
 		var vm = this;
 
 		vm.product = $scope.product;
+		
 	}]);
 })();
